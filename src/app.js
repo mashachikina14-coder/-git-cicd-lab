@@ -27,11 +27,11 @@ function divide(a, b) {
   throw new Error('Division by zero');
  }
  return a / b;
+
 }
 
 module.exports = { add, multiply, greet, subtract, divide };
 
-function power(base, exponent) {
 }
 function power(base, exponent) {
  return Math.pow(base, exponent);
